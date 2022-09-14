@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome Github Pages M.Hilman</title>
+    <style>
+      body {
+        background-color: #eee;
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        cursor: pointer;
+        transition: 0.2s;
+        margin-bottom: 50px;
+      }
+
+      h1:hover {
+        letter-spacing: 1px;
+      }
+
+      img {
+        cursor: pointer;
+        width: 150px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 2px gray;
+        padding: 5px;
+        transition: 0.2s;
+      }
+
+      img:hover {
+        transform: scale(1.1);
+      }
+
+      button {
+        border: none;
+        border-radius: 5px;
+        background-color: #35A9BD;
+        color: black;
+        padding: 10px;
+        margin: 2px;
+      }
+
+      button:hover {
+        background-color: blueviolet;
+        cursor: pointer;
+        color: white;
+      }
+
+      table {
+        width: 100%;
+        min-width: 200px;
+        max-width: 500px;
+      }
+
+      .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .tombol {
+        display: flex;
+      }
+      .tombol button{
+        margin: 0 10px;
+        font-size: 17px;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <img src="foto4.jpeg"/>
+      <h2>Muhamamad Hilman</h2>
+      <h3>TI-2021-KIP-P4</h3>
+      <h3>41215420</h3>
+
+    <div class="tombol">
+      <button id="btn-1">Tabel Sederhana</button>
+      <button id="btn-2">Tabel HTML CSS</button>
+      <button id="btn-3">Tabel Jquery</button>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script>
+      $("#btn-1").on("click", function(){
+        window.location.href = "./p03/index.html" 
+      })
+      $("#btn-2").on("click", function(){
+        window.location.href = "./p03css/index.html" 
+      })
+      $("#btn-3").on("click", function(){
+        window.location.href = "./p03jquery/index.html" 
+      })
+      
+    </script>
+  </body>
+</html>
