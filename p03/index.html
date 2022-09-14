@@ -1,0 +1,105 @@
+<html>
+<style>
+	.tabelku{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	}
+
+	.btn-back{
+	background-color: #35A9BD;
+	color: white;
+	padding: 10px;
+	margin-top: 15px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	}
+	.btn-back:hover{
+	transition: .1s;
+	scale: 1.1;
+}
+.btn-back a {
+	color: black;
+	text-decoration: none;
+}
+</style>
+
+<div class="tabelku">
+	<h3 align="center">10 Kawan Terbaik Di STMIK IKMI</h3>
+<table border="7" widht="80%" align="center">
+	<tr  height="40">
+		<th>No</th>
+		<th>Nama</th>
+		<th>Alamat</th>
+	</tr>
+	<tr>
+		<td align="center">1</td>
+		<td>Muhamad Abdul fatah</td>
+		<td>Sukadana</td>
+	</tr>
+	<tr>
+		<td align="center">2</td>
+		<td>Mirna Ayundia</td>
+		<td>Desa Sigong</td>
+	</tr>
+	<tr>
+		<td align="center">3</td>
+		<td>Moch Fatha Mudzhafar</td>
+		<td>Desa Babakan</td>
+	</tr>
+	<tr>
+		<td align="center">4</td>
+		<td>Lilis Fatimah</td>
+		<td>Desa Karangjaya</td>
+	</tr>
+	<tr>
+		<td align="center">5</td>
+		<td>Anggita Aprilla</td>
+		<td>Desa Jatiseeng</td>
+	</tr>
+	<tr>
+		<td align="center">6</td>
+		<td>Muna Agni</td>
+		<td>Desa Gunungjati</td>
+	</tr>
+	<tr>
+		<td align="center">7</td>
+		<td>Mukhlisin ilahudin</td>
+		<td>Cimohong</td>
+	</tr>
+	<tr>
+		<td align="center">8</td>
+		<td>Muhamad Firly Ramadhan</td>
+		<td>Dukupuntang</td>
+	</tr>
+	<tr>
+		<td align="center">9</td>
+		<td>Gunawan</td>
+		<td>Luwung Ragi</td>
+	</tr>
+	<tr>
+		<td align="center">10</td>
+		<td>Panji P</td>
+		<td>Desa Situ Patok</td>
+	</tr>
+	
+</table>
+<button class="btn-back">Kembali ke menu</button>
+</div>
+<script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $('.btn-back').on('click', function () {
+        console.log('ok')
+        alert('Kamu ingin kembali ke menu awal?')
+        window.location.href = '../index.html'
+      })
+    </script>
+	</html>
